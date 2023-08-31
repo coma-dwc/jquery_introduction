@@ -1,9 +1,14 @@
 (function($){
 
   $(document).ready(function(){
-    var contents =$("div:first").html();
-    $("#hello").toggleClass("on");
-    $("#world").toggleClass("on");
+
+    var params = {
+      "background-color": "#C00",
+      "height": "250px",
+      "width": "400px"
+    }
+
+    $("#element").css( params );
   });
 
 })(jQuery);
