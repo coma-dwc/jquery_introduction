@@ -1,11 +1,10 @@
 (function($){
 
   $(document).ready(function(){
-    var elem = $(".elems");
+    var elem = $("li:eq(2)");
 
-    elem.each(function(){
-      $(this).css("backgroundColor", "#9F9");
-    });
+    elem.css("backgroundColor", "#9F9");
+
   });
 
 })(jQuery);
