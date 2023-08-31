@@ -1,10 +1,9 @@
 (function($){
 
   $(document).ready(function(){
-    var elem = $("li:eq(2)");
-
-    elem.css("backgroundColor", "#9F9");
-
+    var contents =$("div:first").html();
+    $("#hello").toggleClass("on");
+    $("#world").toggleClass("on");
   });
 
 })(jQuery);
