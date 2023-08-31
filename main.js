@@ -1,14 +1,10 @@
 (function($){
 
   $(document).ready(function(){
-
-    var params = {
-      "background-color": "#C00",
-      "height": "250px",
-      "width": "400px"
-    }
-
-    $("#element").css( params );
+    $("#elem").keypress( function(){
+      //実行回数のカウント
+      $("#result").html( parseInt( $("#result").html() ) + 1 );
+    });
   });
 
 })(jQuery);
